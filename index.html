@@ -14,19 +14,22 @@
 </head>
 
 <body>
+    <input type="checkbox" id="close-menu" class="close-menu" role="button" aria-label="Close menu" />
+    <label for="close-menu" title="close-menu" class="close-menu-label"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1>
-                <a href="#"> LOGO</a>
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <!-- <a href="#"></a> -->
+                <img src="/Landing-page/assets/img/logo-fox.png" alt="Logo da Landing-page">
             </h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">Intro</a></li>
-                    <li><a href="#top3">Top 3</a></li>
-                    <li><a href="#grid-one">Top 3 Jobs</a></li>
+                    <li><a href="#top3">Top 4</a></li>
+                    <li><a href="#grid-one">Lessons</a></li>
                     <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#pricing">Principles</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div>
@@ -36,146 +39,149 @@
     <section id="intro" class=" intro main-bg section">
         <div class="main-content intro-content">
             <div class="intro-text-content">
-                <h2>January brings us FireFox 85</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam enim dolorum est commodi
-                    perspiciatis libero corrupti assumenda nemo,
-                    harum dolores ducimus eum recusandae atque doloremque ipsa voluptates quaerat neque. Eligendi.</p>
+                <h2>Carregue a Dor. Mas não a Deixe Te Quebrar.</h2>
+                <p>A jornada do homem é feita de quedas e silêncios. Em algum lugar entre o caos e a ordem, há espaço
+                    para crescer. Como Thorfinn, como Guts, como Musashi — caminhe, mesmo ferido. Porque o amanhã não
+                    será gentil com quem para.</p>
             </div>
             <div class="intro-img">
-                <img src="/Landing-page/assets/img/javascript-not-optimized.svg"
-                    alt="Imagem dos icones de linguagens de programação" />
+                <img src="/Landing-page/assets/img/Art Pixel Sticker by Luigi Salas - Motion Designer - GOJO.gif"
+                    alt="Imagem da seção intro" />
             </div>
         </div>
     </section>
     <section id="top3" class="white-bg section">
         <div class="main-content top3-content">
-            <h2>Top 3 Jobs</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae atque fugiat fugit quidem
-                eum cumque officia ipsa illum obcaecati modi minus cupiditate,
-                facere corporis dolor harum eligendi nesciunt placeat.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae atque fugiat fugit quidem
-                eum cumque officia ipsa illum obcaecati modi minus cupiditate,
-                facere corporis dolor harum eligendi nesciunt placeat.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae atque fugiat fugit quidem
-                eum cumque officia ipsa illum obcaecati modi minus cupiditate,
-                facere corporis dolor harum eligendi nesciunt placeat.</p>
+            <h2>4 Lições de Homens que Escolheram Continuar</h2>
+            <p class="top4-lessons">🗡️ <strong>“Um verdadeiro guerreiro não precisa de espada.”</strong> (Vinland Saga)
+                — Thorfinn aprendeu
+                que o caminho da vingança é vazio. Ele largou a espada e escolheu carregar o peso da paz. Ser homem é
+                enfrentar a si mesmo, não apenas o mundo.</p>
+            <p class="top4-lessons">🔥 <strong>“Lute. E continue lutando.”</strong> (Berserk) — Guts segue em frente
+                mesmo quando a escuridão
+                o engole. Ele não luta por glória — luta porque desistir seria morrer por dentro. A força não está em
+                vencer, mas em continuar, mesmo partido.</p>
+            <p class="top4-lessons">🌊 <strong>“Você deve fluir como a água.”</strong> (Vagabond) — Musashi entendeu que
+                rigidez quebra, mas
+                a água contorna, se adapta e vence sem violência. Crescer como homem é abrir mão do ego e deixar o tempo
+                moldar sua essência.</p>
+            <p class="top4-lessons">🌀 <strong>“Nem todo sorriso é leveza.”</strong> (Jujutsu Kaisen) — Gojo sorri, mas
+                carrega o peso de
+                todos que não pôde salvar.
+                Ser forte também é saber viver com o que não se pode mudar, sem deixar de proteger o que ainda pode ser
+                salvo.</p>
         </div>
     </section>
-    
     <section id="grid-one" class="grid-one main-bg section">
         <div class="main-content grid-one-content">
-            <h2 class="grid-main-heading">Top 3 Jobs</h2>
-            <p class="grid-description">Uma breve descrição</p>
-            <div class="grid"> 
+            <h2 class="grid-main-heading">Lessons</h2>
+            <p class="grid-description">Algumas lições para a vida, leve-as com você. &#128209;</p>
+            <div class="grid">
                 <article>
-                <h3>Teste</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur inventore,
-                    ea adipisci, commodi iste error illo corporis nobis culpa molestiae dignissimos repellendus. Exercitationem consequatur pariatur perferendis natus maiores quam laboriosam?
-                </p>
+                    <h3>A Solidão Ensina</h3>
+                    <p>Na ausência de aplausos, você ouve a própria alma. E é aí que o homem encontra o que é real.
+                        Enfrente o silêncio.</p>
                 </article>
                 <article>
-                <h3>Teste</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi minus ea,
-                    unde, harum facilis ducimus, nostrum dolorem quod accusantium perspiciatis sed! Laudantium, commodi natus ducimus quam nam nesciunt deserunt repellat.
-                </p>
+                    <h3>Força Não É Fúria</h3>
+                    <p>Ser forte não é destruir. É dominar a si mesmo. É não revidar quando poderia. É levantar mesmo
+                        ferido e escolher o certo.</p>
                 </article>
                 <article>
-                <h3>Teste</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi minus ea,
-                    unde, harum facilis ducimus, nostrum dolorem quod accusantium perspiciatis sed! Laudantium, commodi natus ducimus quam nam nesciunt deserunt repellat.
-                </p>
+                    <h3>Carregue a Espada, Mas Use a Palavra</h3>
+                    <p>A espada corta. A palavra constrói. Use ambas com sabedoria. Aprenda a guerrear com honra e
+                        pensar com profundidade.</p>
                 </article>
             </div>
         </div>
     </section>
-    
+
     <section id="gallery" class="grid-one white-bg section">
         <div class="main-content grid-one-content">
-            <h2 class="grid-main-heading">Gallery</h2>
-            <p class="grid-description">Uma breve descrição</p>
-            <div class="grid"> 
+            <h2 class="grid-main-heading">Fragmentos da Jornada</h2>
+            <p class="grid-description">Imagens que refletem a alma de um guerreiro em paz&#128173;</p>
+            <div class="grid">
                 <div class="gallery-img">
-                    <img src="https://picsum.photos/600/400" alt="Random image from picsum.photos">
+                    <!-- <img src="https://picsum.photos/600/400" alt="Random image from picsum.photos"> -->
+                    <img src="/Landing-page/assets/img/Guts, Zenzart.jpeg" alt="Imagens que refletem paz">
                 </div>
                 <div class="gallery-img">
-                    <img src="https://picsum.photos/600/400?r=2" alt="Random image from picsum.photosa">
+                    <img src="/Landing-page/assets/img/Vagabond-calm.jpeg" alt="Imagens que refletem paz">
                 </div>
                 <div class="gallery-img">
-                    <img src="https://picsum.photos/600/400?r=3" alt="Random image from picsum.photos">
+                    <img src="/Landing-page/assets/img/Vinland_saga_sun.jpeg" alt="Imagens que refletem paz">
                 </div>
                 <div class="gallery-img">
-                    <img src="https://picsum.photos/600/400?r=4" alt="Random image from picsum.photos">
+                    <img src="/Landing-page/assets/img/things that bring me peace.jpeg" alt="Imagens que refletem paz">
                 </div>
                 <div class="gallery-img">
-                    <img src="https://picsum.photos/600/400?r=5" alt="Random image from picsum.photos">
+                    <img src="/Landing-page/assets/img/love-cats.jpeg" alt="Imagens que refletem paz">
                 </div>
                 <div class="gallery-img">
-                    <img src="https://picsum.photos/600/400?r=6" alt="Random image from picsum.photos">
+                    <img src="/Landing-page/assets/img/Knight.jpeg" alt="Imagens que refletem paz">
                 </div>
             </div>
         </div>
     </section>
     <section id="pricing" class="white-bg section">
         <div class="main-content top3-content">
-            <h2>Pricing</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae atque fugiat fugit quidem
-                eum cumque officia ipsa illum obcaecati modi minus cupiditate,
-                facere corporis dolor harum eligendi nesciunt placeat.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae atque fugiat fugit quidem
-                eum cumque officia ipsa illum obcaecati modi minus cupiditate,
-                facere corporis dolor harum eligendi nesciunt placeat.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae atque fugiat fugit quidem
-                eum cumque officia ipsa illum obcaecati modi minus cupiditate,
-                facere corporis dolor harum eligendi nesciunt placeat.</p>
-            
+            <h2>Princípios de um Homem em Busca de Propósito</h2>
+            <p>⚖️ Honra acima da aprovação.</p>
+            <p>🧭 Propósito acima do prazer.</p>
+            <p>🕯️ Silêncio acima do barulho.</p>
 
             <div class="table-responsive">
                 <table>
-                    <caption>Pricing table</caption>
+                    <caption>Códigos do Guerreiro</caption>
                     <thead>
                         <tr>
-                            <th>Title 1</th>
-                            <th>Title 2</th>
-                            <th>Title 3</th>
+                            <th>Código</th>
+                            <th>Descrição</th>
+                            <th>Prática no dia a dia</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Data 1</td>
-                            <td>Data 2</td>
-                            <td>Data 3</td>
+                            <td>Honra</td>
+                            <td>Faça o certo mesmo quando ninguém vê.</td>
+                            <td>Não trapaceie, mesmo que possa ganhar.</td>
                         </tr>
                         <tr>
-                            <td>Data 1</td>
-                            <td>Data 2</td>
-                            <td>Data 3</td>
+                            <td>Autodomínio</td>
+                            <td>Controle-se antes de controlar o mundo.</td>
+                            <td>Respire antes de reagir.</td>
                         </tr>
                         <tr>
-                            <td>Data 1</td>
-                            <td>Data 2</td>
-                            <td>Data 3</td>
+                            <td>Propósito</td>
+                            <td>Caminhe com direção, não por impulso.</td>
+                            <td>Reflita antes de agir.</td>
                         </tr>
+                        <tr>
+                            <td>Limite & Poder</td>
+                            <td>Ter poder é proteger, não dominar.</td>
+                            <td>Use sua força para levantar outros, não para esmagá-los.</td>
+                        </tr>
+                    </tbody>
                     <tfoot>
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td>Testando</td>
+                            <th></th>
+                            <td colspan="3"></td>
                         </tr>
                     </tfoot>
                 </table>
             </div>
+
         </div>
     </section>
     <section id="contact" class=" intro main-bg section">
         <div class="main-content intro-content">
             <div class="intro-text-content">
-                <h2>January brings us FireFox 85</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam enim dolorum est commodi
-                    perspiciatis libero corrupti assumenda nemo,
-                    harum dolores ducimus eum recusandae atque doloremque ipsa voluptates quaerat neque. Eligendi.</p>
+                <h2>Compartilhe sua Jornada</h2>
+                <p>Homens também enfrentam medos. Também passam por fases difíceis. Mas não é preciso enfrentar tudo
+                    sozinho. Fale. Compartilhe. Seja ouvido.</p>
             </div>
             <div class="intro-img">
-                <img src="/Landing-page/assets/img/javascript-not-optimized.svg"
+                <img src="/Landing-page/assets/img/Art Pixel Sticker by Luigi Salas - Motion Designer - GOJO.gif"
                     alt="Imagem dos icones de linguagens de programação" />
             </div>
             <div class="contact-form">
@@ -205,7 +211,11 @@
         </div>
     </section>
     <footer id="footer" class=" footer white-bg">
-        <p><a rel="nofollow" target="_blank" href="www.linkedin.com/in/pettersantos">Feito com Entusiasmo <span class="heart">❤</span> por Petter Santos</a></p>
+        <p><a rel="nofollow" target="_blank" href="www.linkedin.com/in/pettersantos">Escrito por quem ainda está lutando
+                em melhorar
+                — Petter Santos <span class="heart">☕</span></a></p>
     </footer>
+    <a href="#top" class="back-to-top" title="Back to top" aria-label="Back to top"><span>&#11165;</span></a>
 </body>
+
 </html>
