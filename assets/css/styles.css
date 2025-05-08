@@ -256,8 +256,8 @@ p {
     position: absolute;
     font-size: 8rem;
     font-style: italic;
-    top: -4rem;
-    left: -1rem;
+    top: -3rem;
+    left: -0.5rem;
     transform: rotate(5deg);
 }
 
@@ -320,7 +320,7 @@ table th {
 
 .contact-form .form-grid {
     border: none;
-    display: flex;
+    display: column;
     flex-direction: row;
     flex-wrap: wrap;
     gap: var(--gap);
@@ -360,7 +360,7 @@ table th {
 
 body .full-width {
     width: auto;
-    flex: 1 1 100;
+    flex: 1 100%;
 }
 
 .form-group button {
@@ -418,7 +418,7 @@ body .full-width {
     display: none;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 800px) {
 
     h1,
     h2 {
