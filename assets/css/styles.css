@@ -23,7 +23,12 @@ body {
     font-size: 2rem;
     color: var(--primary-color);
     line-height: 1.5;
+}
 
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 h1,
@@ -192,7 +197,8 @@ p {
 
 .intro-img img {
     max-width: 100%;
-    min-height: 100%;
+    height: auto;
+    display: block;
 
 
 }
@@ -233,6 +239,8 @@ p {
     grid-template-columns: repeat(3, 1fr);
     gap: var(--gap);
     counter-reset: grid-counter;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .grid h3 {
@@ -412,6 +420,21 @@ body .full-width {
 
 @media (max-width: 1020px) {
 
+    h1,
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    .grid h3::before {
+        top: -3rem;
+        left: -0.6rem;
+
+    }
+
     .intro-content,
     .grid {
         grid-template-columns: 1fr;
@@ -456,16 +479,16 @@ body .full-width {
         content: '☰';
         position: fixed;
         z-index: 1001;
-        top: 2rem;
-        right: 2rem;
+        top: 1rem;
+        right: 1rem;
         background: var(--primary-color);
         color: var(--white-color);
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 3rem;
-        width: 3.5rem;
-        height: 3.5rem;
+        width: 3rem;
+        height: 3rem;
         text-align: center;
-        padding: 0.5rem;
+        padding: 0.3rem;
         border-radius: 0.5rem;
         cursor: pointer;
     }
